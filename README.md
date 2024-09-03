@@ -9,9 +9,6 @@
 2. **Configurar el entorno local**:
    - Crea un ambiente virtual con `python -m venv env`.
    - Activa el ambiente virtual y luego instala las dependencias:
-     ```bash
-     pip install "fastapi[standard]" sqlalchemy python-dotenv
-     ```
 
 3. **Desarrollar la API**:
    - **Crear `main.py`**: Define los endpoints para crear, actualizar, obtener y eliminar usuarios, asegurando la validación de datos como correos únicos y existencia de usuarios.
