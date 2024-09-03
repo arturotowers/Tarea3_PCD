@@ -15,16 +15,16 @@
    - **Configurar `model.py` y `database.py`**: Define el modelo de la base de datos con SQLAlchemy y configura la conexión a SQLite.
 
 4. **Probar la API**:
-   - Ejecuta el servidor con `uvicorn main:app --reload`.
-   - Usa la interfaz Swagger en `http://127.0.0.1:8000/docs` para interactuar con los endpoints.
+   - Ejecutar el servidor.
+   - Utilizar postaman para hacer las pruebas
 
 5. **Crear archivos adicionales**:
    - **`requirements.txt`**: Genera el archivo con `pip freeze > requirements.txt` para listar las dependencias.
    - **`README.md`**: Añade instrucciones y detalles del proyecto.
 
 6. **Subir cambios a GitHub**:
-   - Realiza un commit con `git add .` y `git commit -m "Initial commit"`.
-   - Empuja los cambios con `git push origin main`.
+   - Realizar los commits.
+   - Hacer push a los commits.
 
 Este proceso crea y despliega una API básica con FastAPI, preparada para ser extendida con funcionalidades adicionales.
 
